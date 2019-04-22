@@ -22,7 +22,7 @@ taskInput.value = '';
 // Paste
 // taskInput.addEventListener('paste', runEvent);
 // Input
-taskInput.addEventListener('input', runEvent);
+// taskInput.addEventListener('input', runEvent);
 
 function runEvent(e) {
     console.log(`EVENT TYPE: ${e.type}`);
